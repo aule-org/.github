@@ -1,14 +1,27 @@
-## Aule · the open-source AI tutor
+## Capricorn · the open-source AI tutor for kids
 
-Every child deserves a patient tutor. We build **Capricorn**, an AI tutor for children that families and schools can inspect, repair and improve: an e-ink device with a voice, firmware built on open standards, a server you can run yourself, and an app for the family. Everything is published in the open.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aule-org/capricorn-hw/main/hardware/enclosure/vista.png" alt="Capricorn: a 7.5-inch e-ink tutor on a folding desk dock" width="420">
+</p>
 
-| Repository | What it is |
+Every child deserves a patient tutor. **Capricorn** is one you can inspect, build and run yourself: a calm e-ink device that listens and talks, firmware on open standards, a server you can host, and an app for the family. No feed, no ads, no glowing screen.
+
+| Repository | What you'll find |
 |---|---|
-| [capricorn-hw](https://github.com/aule-org/capricorn-hw) | The device: board, e-ink, audio, enclosure |
-| [capricorn-fw](https://github.com/aule-org/capricorn-fw) | Firmware: [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) + a [LiveKit](https://livekit.io) transport |
-| [capricorn-sw](https://github.com/aule-org/capricorn-sw) | Central server: voice tutor, device activation and updates, family API |
-| [capricorn-app](https://github.com/aule-org/capricorn-app) | The family app: setup, progress, privacy |
+| [capricorn-hw](https://github.com/aule-org/capricorn-hw) | ESP32-S3 board, 7.5" e-ink touch display, voice with echo cancellation, hardware mic mute. KiCad 10, JLCPCB-ready files, 3D-printable dock |
+| [capricorn-fw](https://github.com/aule-org/capricorn-fw) | ESP32-S3 firmware built on [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) with a [LiveKit](https://livekit.io) transport. Builds on every commit |
+| [capricorn-sw](https://github.com/aule-org/capricorn-sw) | Self-hosted server: LiveKit Agents voice tutor, device activation and updates, family API |
+| [capricorn-app](https://github.com/aule-org/capricorn-app) | Family app: setup over Bluetooth, progress, privacy controls |
 
-Children first: a physical microphone mute, parental consent, and children's data is never used to train models.
+### For builders
 
-Made in Lima, Peru · [meetaule.com](https://meetaule.com) · admin@meetaule.com
+1. **Order the board.** Gerbers, BOM and placement files are ready for JLCPCB: about US$66 per assembled board in a batch of five ([BOM](https://github.com/aule-org/capricorn-hw/blob/main/bom/README.md)).
+2. **Print the dock.** Seven PETG parts, about 13.5 hours ([enclosure](https://github.com/aule-org/capricorn-hw/blob/main/hardware/enclosure/README.md)).
+3. **Flash the firmware** from the [CI builds](https://github.com/aule-org/capricorn-fw/actions). Browser flashing is on the way.
+4. **Tell us how it went.** Capricorn is a prototype; your build report is the most useful contribution there is.
+
+### Children first
+
+A hardware microphone mute the firmware cannot override. Parental consent. Children's data is never used to train models. Report privacy or security problems to admin@meetaule.com ([policy](https://github.com/aule-org/.github/blob/main/SECURITY.md)).
+
+Made in Lima, Peru · [meetaule.com](https://meetaule.com)
