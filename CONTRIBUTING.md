@@ -1,6 +1,6 @@
 # Contributing to Capricorn
 
-Capricorn is the open-source AI tutor for children: [hardware](https://github.com/aule-org/capricorn-hw), [firmware](https://github.com/aule-org/capricorn-fw), [server](https://github.com/aule-org/capricorn-sw) and a [family app](https://github.com/aule-org/capricorn-app). Contributions are welcome in English or Spanish.
+Capricorn is the open-source AI tutor for children: [hardware](https://github.com/meet-aule/capricorn-hw), [firmware](https://github.com/meet-aule/capricorn-fw), [server](https://github.com/meet-aule/capricorn-sw) and a [family app](https://github.com/meet-aule/capricorn-app). Contributions are welcome in English or Spanish.
 
 ## How to help
 
@@ -8,7 +8,7 @@ Capricorn is the open-source AI tutor for children: [hardware](https://github.co
 - **Report bugs and ideas** with the issue forms of the repository they belong to.
 - **Send pull requests.** Small fixes can go straight to a pull request; for bigger changes, open an issue first so we agree on the approach.
 
-Each repository may have its own guide with specifics (for example, [capricorn-hw's](https://github.com/aule-org/capricorn-hw/blob/main/CONTRIBUTING.md)).
+Each repository may have its own guide with specifics (for example, [capricorn-hw's](https://github.com/meet-aule/capricorn-hw/blob/main/CONTRIBUTING.md)).
 
 ## Ground rules
 
