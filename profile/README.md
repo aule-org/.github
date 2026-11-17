@@ -1,7 +1,7 @@
 ## Capricorn · the open-source AI tutor for kids
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aule-org/capricorn-hw/main/hardware/enclosure/vista.png" alt="Capricorn: a 7.5-inch e-ink tutor on a folding desk dock" width="420">
+  <img src="https://raw.githubusercontent.com/aule-org/capricorn-hw/main/hardware/enclosure/view.png" alt="Capricorn: a 7.5-inch e-ink tutor on a folding desk dock" width="420">
 </p>
 
 Every child deserves a patient tutor. **Capricorn** is one you can inspect, build and run yourself: a calm e-ink device that listens and talks, firmware on open standards, a server you can host, and an app for the family. No feed, no ads, no glowing screen.
