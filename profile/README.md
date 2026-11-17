@@ -17,7 +17,7 @@ Every child deserves a patient tutor. **Capricorn** is one you can inspect, buil
 
 1. **Order the board.** Gerbers, BOM and placement files are ready for JLCPCB: about US$66 per assembled board in a batch of five ([BOM](https://github.com/aule-org/capricorn-hw/blob/main/bom/README.md)).
 2. **Print the dock.** Seven PETG parts, about 13.5 hours ([enclosure](https://github.com/aule-org/capricorn-hw/blob/main/hardware/enclosure/README.md)).
-3. **Flash the firmware** from the [CI builds](https://github.com/aule-org/capricorn-fw/actions). Browser flashing is on the way.
+3. **Flash the firmware** from the [CI builds](https://github.com/aule-org/capricorn-fw/actions). It connects to the [server](https://github.com/aule-org/capricorn-sw), which is not live yet; browser flashing is on the way too.
 4. **Tell us how it went.** Capricorn is a prototype; your build report is the most useful contribution there is.
 
 ### Children first
